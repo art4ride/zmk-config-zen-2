@@ -3,7 +3,6 @@ layers:
   L1:
   - $$mdi:keyboard-esc$$
   - Q
-<<<<<<< HEAD
   - Y
   - O
   - U
@@ -37,48 +36,13 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: B, h: '$$mdi:apple-keyboard-option$$'}
   - {t: V, h: '$$mdi:apple-keyboard-control$$'}
-=======
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - {t: '''', s: '"'}
-  - {t: zoom, h: '$$mdi:video-off$$', s: '$$mdi:video$$'}
-  - $$mdi:backspace$$
-  - A
-  - R
-  - S
-  - T
-  - G
-  - M
-  - N
-  - E
-  - I
-  - O
-  - $$mdi:keyboard-return$$
-  - $$mdi:backspace-reverse-outline$$
-  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: D, h: Meh}
-  - V
-  - K
-  - {t: H, h: Meh}
-  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
-  - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
->>>>>>> d5a3a01 (Configure drawer to overwrite commit, move F11 F12)
   - {t: zoom, h: '$$mdi:microphone-off$$', s: '$$mdi:microphone$$'}
   - {t: Fn, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L2, h: '$$mdi:gesture-tap-hold$$'}
   - {t: L2, h: '$$mdi:gesture-tap-hold$$'}
+ symbols/combos, layers, draw held keys)
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: Fn, h: '$$mdi:gesture-tap-hold$$'}
   L2:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -86,10 +50,10 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:skip-previous$$
   - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
+  - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -109,8 +73,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: Meh, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: zoom, h: '$$mdi:video-off$$', s: '$$mdi:video$$'}
+  - {t: zoom, h: '$$mdi:microphone-off$$', s: '$$mdi:microphone$$'}
   - {t: Meh, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -118,8 +82,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: L1, type: held}
-  - L1
+  - {t: Fn, h: '$$mdi:gesture-tap-hold$$', type: held}
+  - {t: Fn, h: '$$mdi:gesture-tap-hold$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
@@ -148,11 +112,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backup-restore$$
   - $$mdi:progress-download$$
-<<<<<<< HEAD
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-=======
->>>>>>> d5a3a01 (Configure drawer to overwrite commit, move F11 F12)
   - $$mdi:keyboard-f11$$
   - $$mdi:keyboard-f12$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -161,43 +122,30 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-<<<<<<< HEAD
   - $$mdi:progress-download$$
   - {t: L1, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-=======
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: L1, type: held}
+
   - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-caps$$
->>>>>>> d5a3a01 (Configure drawer to overwrite commit, move F11 F12)
   - L1
 combos:
 - p: [38, 39]
   k: L2
   l: [L1]
   a: top
-- p: [36, 41]
+- p: [38, 39]
   k: Fn
-  l: [L1]
-  a: bottom
-  o: 0.5
+  l: [L2]
+  a: top
 - p: [15, 16]
   k: $$mdi:keyboard-tab$$
   l: [L1, L2]
-<<<<<<< HEAD
 - p: [16, 17]
   k: $$mdi:keyboard-tab-reverse$$
   l: [L1, L2]
-=======
->>>>>>> d5a3a01 (Configure drawer to overwrite commit, move F11 F12)
 - p: [1, 13]
   k: '!'
   l: [L1]
@@ -230,7 +178,6 @@ combos:
   l: [L1]
 - p: [7, 19]
   k: {h: '-', s: _}
-<<<<<<< HEAD
   l: [L1]
 - p: [8, 20]
   k: {h: '=', s: +}
@@ -254,27 +201,6 @@ combos:
   l: [L1]
   a: right
   o: -0.1
-=======
-  l: [L1, L2]
-- p: [8, 20]
-  k: {h: '=', s: +}
-  l: [L1, L2]
-- p: [6, 18]
-  k: {h: '`', s: '~'}
-  l: [L1, L2]
-- p: [18, 30]
-  k: {h: '[', s: '{'}
-  l: [L1, L2]
-- p: [19, 31]
-  k: {h: ']', s: '}'}
-  l: [L1, L2]
-- p: [20, 32]
-  k: {h: ;, s: ':'}
-  l: [L1, L2]
-- p: [21, 33]
-  k: {h: \, s: '|'}
-  l: [L1, L2]
->>>>>>> d5a3a01 (Configure drawer to overwrite commit, move F11 F12)
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [Fn]
@@ -294,9 +220,11 @@ combos:
 - p: [5, 17]
   k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
   l: [Fn]
-- p: [7, 8]
+- p: [6, 9]
   k: $$mdi:volume-off$$
   l: [L1, L2]
-- p: [8, 9]
+  a: top
+  o: 0.15
+- p: [7, 8]
   k: $$mdi:play-pause$$
   l: [L1, L2]
