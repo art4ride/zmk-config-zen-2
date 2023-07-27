@@ -27,7 +27,7 @@ layers:
   - $$mdi:keyboard-return$$
   - $$mdi:backspace-reverse-outline$$
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: FLSH, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
   - {t: K, h: Meh}
   - QUOT
