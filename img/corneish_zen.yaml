@@ -30,7 +30,7 @@ layers:
   - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
   - {t: K, h: Meh}
-  - QUOT
+  - {t: '''', s: '"'}
   - W
   - {t: F, h: Meh}
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
