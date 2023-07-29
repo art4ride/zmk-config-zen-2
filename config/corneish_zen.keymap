@@ -7,8 +7,8 @@
 #define L2 1
 #define Fn 2
 
-#ifndef CONFIG_LAYOUT
-#define CONFIG_LAYOUT qwerty
+#ifndef LAYOUT
+#define LAYOUT qwerty
 #endif
 #define __base_layer(x) #x
 #define _base_layer(x) __base_layer(base_layer_##x.dtsi)
@@ -29,11 +29,8 @@
 / {
   keymap {
     compatible = "zmk,keymap";
-#ifdef CONFIG_IS_QWERTY
-#include "base_layer_qwerty.dtsi"
-#else
-#include "base_layer_colemak.dtsi"
-#endif
+
+#include base_layer(LAYOUT)
 
     layer_2 {
       label = "L2";
