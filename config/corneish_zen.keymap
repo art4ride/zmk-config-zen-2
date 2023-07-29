@@ -7,6 +7,13 @@
 #define L2 1
 #define Fn 2
 
+#ifndef CONFIG_LAYOUT
+#define CONFIG_LAYOUT qwerty
+#endif
+#define __base_layer(x) #x
+#define _base_layer(x) __base_layer(base_layer_##x.h)
+#define base_layer(x) _base_layer(x)
+
 #define MEH LS(LC(LALT))
 
 #include "behaviors.dtsi"
