@@ -10,6 +10,9 @@
 #ifndef LAYOUT
 #define LAYOUT qwerty
 #endif
+#ifdef CONFIG_LAYOUT
+#define LAYOUT CONFIG_LAYOUT
+#endif
 #define __base_layer(x) #x
 #define _base_layer(x) __base_layer(base_layer_##x.dtsi)
 #define base_layer(x) _base_layer(x)
