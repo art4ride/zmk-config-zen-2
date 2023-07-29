@@ -1,2 +1,3 @@
 # Switch to custom layout:
-LAYOUT=beakl
+config LAYOUT
+	default "beakl"
