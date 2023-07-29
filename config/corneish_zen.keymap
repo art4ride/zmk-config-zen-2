@@ -8,7 +8,7 @@
 #define Fn 2
 
 #ifndef LAYOUT
-#define LAYOUT qwerty
+#define LAYOUT colemak
 #endif
 #ifdef CONFIG_LAYOUT
 #define LAYOUT CONFIG_LAYOUT

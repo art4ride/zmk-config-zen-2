@@ -140,33 +140,5 @@
       mods = <(MOD_LSFT|MOD_RSFT)>;
       #binding-cells = <0>;
     };
-    dotb: dot_grave {
-      compatible = "zmk,behavior-mod-morph";
-      label = "DOT_GRAVE";
-      #binding-cells = <0>;
-      bindings = <&kp DOT>, <&kp GRAVE>;
-      mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    dqtb: dqt_excl {
-      compatible = "zmk,behavior-mod-morph";
-      label = "DQT_EXCL";
-      #binding-cells = <0>;
-      bindings = <&kp DQT>, <&kp EXCL>;
-      mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    commab: comma_qst {
-      compatible = "zmk,behavior-mod-morph";
-      label = "COMMA_QMARK";
-      #binding-cells = <0>;
-      bindings = <&kp COMMA>, <&kp QMARK>;
-      mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
-    spaceb: space_ret {
-      compatible = "zmk,behavior-mod-morph";
-      label = "SPACE_RET";
-      #binding-cells = <0>;
-      bindings = <&kp SPACE>, <&kp RET>;
-      mods = <(MOD_LSFT|MOD_RSFT)>;
-    };
   };
 };
