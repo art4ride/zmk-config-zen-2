@@ -1,5 +1,3 @@
 include:
   - board: corneish_zen_v2_left
-    cmake-args: "-DLAYOUT=beakl"
   - board: corneish_zen_v2_right
-    cmake-args: "-DLAYOUT=beakl"
