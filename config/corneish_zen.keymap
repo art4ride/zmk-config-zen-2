@@ -22,7 +22,11 @@
 / {
   keymap {
     compatible = "zmk,keymap";
+#ifdef CONFIG_IS_QWERTY
+#include "base_layer_qwerty.dtsi"
+#else
 #include "base_layer_colemak.dtsi"
+#endif
 
     layer_2 {
       label = "L2";
