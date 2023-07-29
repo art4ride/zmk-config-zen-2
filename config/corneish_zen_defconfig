@@ -1,4 +1,0 @@
-# Switch to custom layout:
-config LAYOUT
-  string
-	default "qwerty"
