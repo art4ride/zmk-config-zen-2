@@ -3,6 +3,7 @@ on:
   workflow_dispatch: # can be triggered manually
   push:
     paths:
+      - "config/*_defconfig"
       - "config/*.keymap"
       - "config/*.dtsi"
       - "config/*.conf"
