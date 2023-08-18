@@ -160,5 +160,16 @@
       mods = <(MOD_LSFT|MOD_RSFT)>;
       #binding-cells = <0>;
     };
+    /*
+     - tap: opening parenthesis
+     - shift + tap: closing parenthesis
+     */
+    /omit-if-no-ref/ bkt: brackets {
+      compatible = "zmk,behavior-mod-morph";
+      label = "BRACKETS";
+      #binding-cells = <0>;
+      bindings = <&kp LPAR>, <&kp RPAR>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
   };
 };
