@@ -14,6 +14,7 @@
 // Other layers
 #include "../knucklehead/L2.dtsi"
 #include "../knucklehead/L3.dtsi"
+#include "../knucklehead/L4_qwerty.dtsi"
 
 / {
   chosen {
