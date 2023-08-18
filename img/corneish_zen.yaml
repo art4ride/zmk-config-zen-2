@@ -165,10 +165,10 @@ layers:
   - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
-  - {t: Fn, h: '$$mdi:close-box$$'}
+  - L1
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - L2
   - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '`', s: '~'}
@@ -205,25 +205,25 @@ combos:
   l: [L1]
 - p: [7, 19]
   k: {h: '-', s: _}
-  l: [L1, L2, Fn]
+  l: [L1, L2, Fn, L4]
 - p: [8, 20]
   k: {h: '=', s: +}
-  l: [L1, L2, Fn]
+  l: [L1, L2, Fn, L4]
 - p: [9, 21]
   k: {h: ;, s: ':'}
-  l: [L1, L2, Fn]
+  l: [L1, L2, Fn, L4]
 - p: [19, 31]
   k: {h: '[', s: '{'}
-  l: [L1, L2, Fn]
+  l: [L1, L2, Fn, L4]
 - p: [20, 32]
   k: {h: ']', s: '}'}
-  l: [L1, L2, Fn]
+  l: [L1, L2, Fn, L4]
 - p: [21, 33]
   k: {h: \, s: '|'}
-  l: [L1, L2, Fn]
+  l: [L1, L2, Fn, L4]
 - p: [18, 30]
   k: {t: (, s: )}
-  l: [L1]
+  l: [L1, L2, Fn, L4]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [Fn]
