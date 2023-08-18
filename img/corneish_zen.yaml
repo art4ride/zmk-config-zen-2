@@ -128,7 +128,50 @@ layers:
   - L1
   - L1
   - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - L4
+  L4:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - $$mdi:close-box$$
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: Fn, h: '$$mdi:close-box$$'}
+  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:star-three-points$$'}
+  - B
+  - N
+  - {t: M, h: '$$mdi:star-three-points$$'}
+  - {t: ',', h: '$$mdi:apple-keyboard-command$$', s: <}
+  - {t: ., h: '$$mdi:apple-keyboard-option$$', s: '>'}
+  - {t: /, h: '$$mdi:apple-keyboard-control$$', s: '?'}
+  - {t: Fn, h: '$$mdi:close-box$$'}
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '`', s: '~'}
 combos:
 - p: [1, 13]
   k: '!'
@@ -178,6 +221,9 @@ combos:
 - p: [21, 33]
   k: {h: \, s: '|'}
   l: [L1, L2, Fn]
+- p: [18, 30]
+  k: {t: (, s: )}
+  l: [L1]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [Fn]
