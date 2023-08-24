@@ -43,3 +43,8 @@ To locate your firmware files...
     - If you changed [the conf file](/config/corneish_zen.conf) you should flash both sides their respective files.
 
 Your keyboard is now ready to use.
+
+# References
+    - ([Minu5](https://github.com/minusfive/zmk-config))
+    - ([caksoylar](https://github.com/caksoylar/zmk-config))
+    - ([urob](https://github.com/urob/zmk-config))
