@@ -1,0 +1,168 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  QWERTY: [↹, Q, W, E, R, T, Y, U, I, O, P, ⌫, Ctrl, A, S, D, F, G, H, J, K, L, ;, '''', Shift, Z, X, C, V, B, N, M, ',', ., /, Esc, Gui, NUMBER, ␣, ⏎, SYMBOL, Alt]
+  NUMBER:
+  - ↹
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ⌫
+  - BT CLR
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
+  - ←
+  - ↓
+  - ↑
+  - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Shift
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui
+  - {type: held}
+  - ␣
+  - ⏎
+  - {t: ▽, type: trans}
+  - Alt
+  SYMBOL:
+  - ↹
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ⌫
+  - Ctrl
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - \
+  - '`'
+  - Shift
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - '~'
+  - Gui
+  - {t: ▽, type: trans}
+  - ␣
+  - ⏎
+  - {type: held}
+  - Alt
+combos:
+- p: [1, 13]
+  k: '!'
+  l: [QWERTY]
+- p: [2, 14]
+  k: '@'
+  l: [QWERTY]
+- p: [3, 15]
+  k: '#'
+  l: [QWERTY]
+- p: [4, 16]
+  k: $
+  l: [QWERTY]
+- p: [5, 17]
+  k: '%'
+  l: [QWERTY]
+- p: [13, 25]
+  k: ^
+  l: [QWERTY]
+- p: [14, 26]
+  k: '&'
+  l: [QWERTY]
+- p: [15, 27]
+  k: '*'
+  l: [QWERTY]
+- p: [16, 28]
+  k: '"'
+  l: [QWERTY]
+- p: [17, 29]
+  k: ''''
+  l: [QWERTY]
+- p: [16, 17]
+  k: '!'
+  l: [QWERTY]
+- p: [18, 19]
+  k: '?'
+  l: [QWERTY]
+- p: [7, 19]
+  k: '-'
+  l: [QWERTY, NUMBER, SYMBOL]
+- p: [8, 20]
+  k: '='
+  l: [QWERTY, NUMBER, SYMBOL]
+- p: [9, 21]
+  k: ;
+  l: [QWERTY, NUMBER, SYMBOL]
+- p: [19, 31]
+  k: '['
+  l: [QWERTY, NUMBER, SYMBOL]
+- p: [20, 32]
+  k: ']'
+  l: [QWERTY, NUMBER, SYMBOL]
+- p: [21, 33]
+  k: \
+  l: [QWERTY, NUMBER, SYMBOL]
+- p: [18, 30]
+  k: {t: (, s: )}
+  l: [QWERTY, NUMBER, SYMBOL]
+- p: [1, 2, 3, 4]
+  k: BT CLR
+  l: [SYMBOL]
+- p: [1, 13]
+  k: BT 1
+  l: [SYMBOL]
+- p: [2, 14]
+  k: BT 2
+  l: [SYMBOL]
+- p: [3, 15]
+  k: BT 3
+  l: [SYMBOL]
+- p: [4, 16]
+  k: BT 4
+  l: [SYMBOL]
+- p: [5, 17]
+  k: BT 5
+  l: [SYMBOL]
+- p: [6, 7]
+  k: ⏯
+  l: [QWERTY, NUMBER, SYMBOL]
