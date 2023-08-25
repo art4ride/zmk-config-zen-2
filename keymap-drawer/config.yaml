@@ -58,7 +58,7 @@ draw_config:
 
     /* styling for combo tap, and key hold/shifted label text */
     text.combo, text.hold, text.shifted {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     text.hold {
@@ -157,6 +157,10 @@ parse_config:
 
   zmk_keycode_map:
     # custom mappings
+    # ✂
+    # ✄
+    # ⎗
+    # ⎘
     LC(LG(LEFT)): Desk Left
     LC(LG(RIGHT)): Desk Right
     LC(TAB): Tab Left
@@ -170,28 +174,28 @@ parse_config:
     LS(TAB): Win Prev
     LS(INS): Paste
 
-    LCTRL: Ctrl
-    RCTRL: Ctrl
-    LALT: Alt
-    RALT: Alt
-    LGUI: Gui
-    RGUI: Gui
-    LSHFT: Shift
-    RSHFT: Shift
-    ESC: Esc
+    LCTRL: ⌃
+    RCTRL: ⌃
+    LALT: ⌥
+    RALT: ⎇
+    LGUI: ⌘
+    RGUI: ⌘
+    LSHFT: ⇧
+    RSHFT: ⇧
+    ESC: ⎋
     SPACE: ␣
     BSPC: ⌫
     RET: ⏎
     TAB: ↹
     DEL: ⌦
 
-    PG_UP: Page Up
-    PG_DN: Page Down
+    PG_UP: ⇞
+    PG_DN: ⇟
     INS: Insert
-    HOME: Home
-    END: End
-    CAPS: Caps Lock
-    PSCRN: Print Scrn
+    HOME: ↖
+    END: ↘
+    CAPS: ⇪
+    PSCRN: ⎙
     PAUSE_BREAK: Pause Break
 
     UP: ↑
@@ -200,8 +204,8 @@ parse_config:
     RIGHT: →
 
     C_PP: ⏯
-    C_NEXT: ⏭️
-    C_PREV: ⏮️
+    C_NEXT: ⏭
+    C_PREV: ⏮
 
     # defaults
     AMPERSAND: '&'
