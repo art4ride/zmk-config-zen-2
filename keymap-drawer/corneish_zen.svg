@@ -56,7 +56,7 @@ text.label {
 
 /* styling for combo tap, and key hold/shifted label text */
 text.combo, text.hold, text.shifted {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 text.hold {
@@ -208,7 +208,7 @@ g.combo.capsw {
 </g>
 <g class="key keypos-24">
 <rect rx="6" ry="6" x="32" y="255" width="52" height="52" class="key"/>
-<text x="58" y="281" class="key tap">Ctrl</text>
+<text x="58" y="281" class="key tap">⌃</text>
 </g>
 <g class="key keypos-25">
 <rect rx="6" ry="6" x="88" y="255" width="52" height="52" class="key"/>
@@ -252,11 +252,11 @@ g.combo.capsw {
 </g>
 <g class="key keypos-35">
 <rect rx="6" ry="6" x="816" y="255" width="52" height="52" class="key"/>
-<text x="842" y="281" class="key tap">Esc</text>
+<text x="842" y="281" class="key tap">⎋</text>
 </g>
 <g class="key keypos-36">
 <rect rx="6" ry="6" x="228" y="299" width="52" height="52" class="key"/>
-<text x="254" y="325" class="key tap">Gui</text>
+<text x="254" y="325" class="key tap">⌘</text>
 </g>
 <g transform="rotate(15.0, 316, 333)" class="key keypos-37">
 <rect rx="6" ry="6" x="290" y="307" width="52" height="52" class="key"/>
@@ -268,7 +268,7 @@ g.combo.capsw {
 </g>
 <g transform="rotate(-30.0, 519, 345)" class="key keypos-39">
 <rect rx="6" ry="6" x="493" y="305" width="52" height="80" class="key"/>
-<text x="519" y="345" class="key tap">Shift</text>
+<text x="519" y="345" class="key tap">⇧</text>
 </g>
 <g transform="rotate(-15.0, 584, 333)" class="key keypos-40">
 <rect rx="6" ry="6" x="558" y="307" width="52" height="52" class="key"/>
@@ -276,7 +276,7 @@ g.combo.capsw {
 </g>
 <g class="key keypos-41">
 <rect rx="6" ry="6" x="620" y="299" width="52" height="52" class="key"/>
-<text x="646" y="325" class="key tap">Alt</text>
+<text x="646" y="325" class="key tap">⎇</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="100" y="184" width="28" height="26" class="combo"/>
@@ -479,7 +479,7 @@ g.combo.capsw {
 </g>
 <g class="key keypos-24">
 <rect rx="6" ry="6" x="32" y="586" width="52" height="52" class="key"/>
-<text x="58" y="612" class="key tap">Ctrl</text>
+<text x="58" y="612" class="key tap">⌃</text>
 </g>
 <g class="key trans keypos-25">
 <rect rx="6" ry="6" x="88" y="586" width="52" height="52" class="key trans"/>
@@ -527,7 +527,7 @@ g.combo.capsw {
 </g>
 <g class="key keypos-36">
 <rect rx="6" ry="6" x="228" y="630" width="52" height="52" class="key"/>
-<text x="254" y="656" class="key tap">Gui</text>
+<text x="254" y="656" class="key tap">⌘</text>
 </g>
 <g transform="rotate(15.0, 316, 664)" class="key held keypos-37">
 <rect rx="6" ry="6" x="290" y="638" width="52" height="52" class="key held"/>
@@ -538,7 +538,7 @@ g.combo.capsw {
 </g>
 <g transform="rotate(-30.0, 519, 675)" class="key keypos-39">
 <rect rx="6" ry="6" x="493" y="635" width="52" height="80" class="key"/>
-<text x="519" y="675" class="key tap">Shift</text>
+<text x="519" y="675" class="key tap">⇧</text>
 </g>
 <g transform="rotate(-15.0, 584, 664)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="558" y="638" width="52" height="52" class="key trans"/>
@@ -546,7 +546,7 @@ g.combo.capsw {
 </g>
 <g class="key keypos-41">
 <rect rx="6" ry="6" x="620" y="630" width="52" height="52" class="key"/>
-<text x="646" y="656" class="key tap">Alt</text>
+<text x="646" y="656" class="key tap">⎇</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="604" y="501" width="28" height="26" class="combo"/>
@@ -681,7 +681,7 @@ g.combo.capsw {
 </g>
 <g class="key keypos-24">
 <rect rx="6" ry="6" x="32" y="917" width="52" height="52" class="key"/>
-<text x="58" y="943" class="key tap">Ctrl</text>
+<text x="58" y="943" class="key tap">⌃</text>
 </g>
 <g class="key trans keypos-25">
 <rect rx="6" ry="6" x="88" y="917" width="52" height="52" class="key trans"/>
@@ -729,7 +729,7 @@ g.combo.capsw {
 </g>
 <g class="key keypos-36">
 <rect rx="6" ry="6" x="228" y="961" width="52" height="52" class="key"/>
-<text x="254" y="987" class="key tap">Gui</text>
+<text x="254" y="987" class="key tap">⌘</text>
 </g>
 <g transform="rotate(15.0, 316, 995)" class="key trans keypos-37">
 <rect rx="6" ry="6" x="290" y="969" width="52" height="52" class="key trans"/>
@@ -741,14 +741,14 @@ g.combo.capsw {
 </g>
 <g transform="rotate(-30.0, 519, 1006)" class="key keypos-39">
 <rect rx="6" ry="6" x="493" y="966" width="52" height="80" class="key"/>
-<text x="519" y="1006" class="key tap">Shift</text>
+<text x="519" y="1006" class="key tap">⇧</text>
 </g>
 <g transform="rotate(-15.0, 584, 995)" class="key held keypos-40">
 <rect rx="6" ry="6" x="558" y="969" width="52" height="52" class="key held"/>
 </g>
 <g class="key keypos-41">
 <rect rx="6" ry="6" x="620" y="961" width="52" height="52" class="key"/>
-<text x="646" y="987" class="key tap">Alt</text>
+<text x="646" y="987" class="key tap">⎇</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="604" y="832" width="28" height="26" class="combo"/>
