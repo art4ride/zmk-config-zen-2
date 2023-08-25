@@ -37,6 +37,11 @@
     COMBO(dqt, &kp DQT, 16 28, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(sqt, &kp SQT, 17 29, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
+    COMBO(tab,    &kp TAB,    14 16, L1,  40, 200)
+    COMBO(bspc,   &kp BSPC,   19 21, L1,  40, 200)
+    COMBO(capswd, &caps_word, 16 19, L1,  60, 200)
+
+
     // index horiz tests
     COMBO(exclr, &kp EXCL, 16 17, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
     COMBO(qmark, &kp QMARK, 18 19, L1, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
