@@ -18,8 +18,8 @@ V2 PCBs were only used in the 3rd GB round (R3). To confirm which version you ne
 - The [official ZMK Discord Server](https://zmk.dev/community/discord/invite). Instant conversations with other ZMK developers and users. Great technical resource!
 - Those guys making an amazing job on their configs
     - [Minu5](https://github.com/minusfive/zmk-config)
-    - ([caksoylar](https://github.com/caksoylar/zmk-config))
-    - ([urob](https://github.com/urob/zmk-config))
+    - [caksoylar](https://github.com/caksoylar/zmk-config)
+    - [urob](https://github.com/urob/zmk-config)
 
 ## Instructions
 
