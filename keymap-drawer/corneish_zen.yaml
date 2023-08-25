@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  QWERTY: [↹, Q, Y, O, U, X, G, C, M, N, Z, ⌫, ⌫, H, I, E, A, .`, D, S, T, R, P, ⏎, Ctrl, J, '"!', ',?', K, '''~', W, F, L, B, V, Esc, Gui, NUMBER, ␣, Shift, SYMBOL,
+  BEAKL: [↹, Q, Y, O, U, X, G, C, M, N, Z, ⌫, ⌫, H, I, E, A, .`, D, S, T, R, P, ⏎, Ctrl, J, '"!', ',?', K, '''~', W, F, L, B, V, Esc, Gui, NUMBER, ␣, Shift, SYMBOL,
     Alt]
   NUMBER:
   - ↹
@@ -58,7 +58,7 @@ layers:
   - (
   - )
   - ⌫
-  - Ctrl
+  - ⌫
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -70,7 +70,7 @@ layers:
   - ']'
   - \
   - '`'
-  - Shift
+  - Ctrl
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,81 +85,81 @@ layers:
   - Gui
   - {t: ▽, type: trans}
   - ␣
-  - ⏎
+  - Shift
   - {type: held}
   - Alt
 combos:
 - p: [1, 13]
   k: '!'
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [2, 14]
   k: '@'
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [3, 15]
   k: '#'
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [4, 16]
   k: $
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [5, 17]
   k: '%'
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [13, 25]
   k: ^
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [14, 26]
   k: '&'
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [15, 27]
   k: '*'
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [16, 28]
   k: <
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [17, 29]
   k: '>'
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [14, 16]
   k: ↹
-  l: [QWERTY]
+  l: [BEAKL]
   a: top
   o: 5.15
 - p: [19, 21]
   k: ⌫
-  l: [QWERTY]
+  l: [BEAKL]
   a: top
   o: 5.15
 - p: [16, 19]
   k: Caps Wrd
-  l: [QWERTY]
+  l: [BEAKL]
   a: top
 - p: [16, 17]
   k: '!'
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [18, 19]
   k: '?'
-  l: [QWERTY]
+  l: [BEAKL]
 - p: [7, 19]
   k: '-'
-  l: [QWERTY, NUMBER, SYMBOL]
+  l: [BEAKL, NUMBER, SYMBOL]
 - p: [8, 20]
   k: '='
-  l: [QWERTY, NUMBER, SYMBOL]
+  l: [BEAKL, NUMBER, SYMBOL]
 - p: [9, 21]
   k: ;
-  l: [QWERTY, NUMBER, SYMBOL]
+  l: [BEAKL, NUMBER, SYMBOL]
 - p: [19, 31]
   k: '['
-  l: [QWERTY, NUMBER, SYMBOL]
+  l: [BEAKL, NUMBER, SYMBOL]
 - p: [20, 32]
   k: ']'
-  l: [QWERTY, NUMBER, SYMBOL]
+  l: [BEAKL, NUMBER, SYMBOL]
 - p: [21, 33]
   k: \
-  l: [QWERTY, NUMBER, SYMBOL]
+  l: [BEAKL, NUMBER, SYMBOL]
 - p: [18, 30]
   k: ()
-  l: [QWERTY, NUMBER, SYMBOL]
+  l: [BEAKL, NUMBER, SYMBOL]
 - p: [1, 2, 3, 4]
   k: BT CLR
   l: [SYMBOL]
@@ -180,4 +180,4 @@ combos:
   l: [SYMBOL]
 - p: [6, 7]
   k: ⏯
-  l: [QWERTY, NUMBER, SYMBOL]
+  l: [BEAKL, NUMBER, SYMBOL]

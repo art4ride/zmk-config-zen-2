@@ -98,8 +98,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g class="layer-QWERTY">
-<text x="30.0" y="28.0" class="label">QWERTY:</text>
+<g class="layer-BEAKL">
+<text x="30.0" y="28.0" class="label">BEAKL:</text>
 <g class="key keypos-0">
 <rect rx="6" ry="6" x="32" y="367" width="52" height="52" class="key"/>
 <text x="58" y="393" class="key tap">↹</text>
@@ -623,7 +623,7 @@ path.combo {
 </g>
 <g class="key keypos-12">
 <rect rx="6" ry="6" x="32" y="1085" width="52" height="52" class="key"/>
-<text x="58" y="1111" class="key tap">Ctrl</text>
+<text x="58" y="1111" class="key tap">⌫</text>
 </g>
 <g class="key trans keypos-13">
 <rect rx="6" ry="6" x="88" y="1085" width="52" height="52" class="key trans"/>
@@ -671,7 +671,7 @@ path.combo {
 </g>
 <g class="key keypos-24">
 <rect rx="6" ry="6" x="32" y="1141" width="52" height="52" class="key"/>
-<text x="58" y="1167" class="key tap">Shift</text>
+<text x="58" y="1167" class="key tap">Ctrl</text>
 </g>
 <g class="key trans keypos-25">
 <rect rx="6" ry="6" x="88" y="1141" width="52" height="52" class="key trans"/>
@@ -731,7 +731,7 @@ path.combo {
 </g>
 <g transform="rotate(-30.0, 519, 1230)" class="key keypos-39">
 <rect rx="6" ry="6" x="493" y="1190" width="52" height="80" class="key"/>
-<text x="519" y="1230" class="key tap">⏎</text>
+<text x="519" y="1230" class="key tap">Shift</text>
 </g>
 <g transform="rotate(-15.0, 584, 1219)" class="key held keypos-40">
 <rect rx="6" ry="6" x="558" y="1193" width="52" height="52" class="key held"/>
