@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  QWERTY: [↹, Q, Y, O, U, X, G, C, M, N, Z, ⌫, Ctrl, H, I, E, A, .`, D, S, T, R, P, ⏎, Shift, J, '"!', ',?', K, '''~', W, F, L, B, V, Esc, Gui, NUMBER, ␣, ⏎, SYMBOL,
+  QWERTY: [↹, Q, Y, O, U, X, G, C, M, N, Z, ⌫, ⌫, H, I, E, A, .`, D, S, T, R, P, ⏎, Ctrl, J, '"!', ',?', K, '''~', W, F, L, B, V, Esc, Gui, NUMBER, ␣, Shift, SYMBOL,
     Alt]
   NUMBER:
   - ↹
@@ -26,8 +26,8 @@ layers:
   - ↑
   - →
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Shift
+  - ⏎
+  - Ctrl
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -42,7 +42,7 @@ layers:
   - Gui
   - {type: held}
   - ␣
-  - ⏎
+  - Shift
   - {t: ▽, type: trans}
   - Alt
   SYMBOL:
@@ -114,11 +114,25 @@ combos:
   k: '*'
   l: [QWERTY]
 - p: [16, 28]
-  k: '"'
+  k: <
   l: [QWERTY]
 - p: [17, 29]
-  k: ''''
+  k: '>'
   l: [QWERTY]
+- p: [14, 16]
+  k: ↹
+  l: [QWERTY]
+  a: top
+  o: 0.15
+- p: [19, 21]
+  k: ⌫
+  l: [QWERTY]
+  a: top
+  o: 0.15
+- p: [16, 19]
+  k: Caps Wrd
+  l: [QWERTY]
+  a: top
 - p: [16, 17]
   k: '!'
   l: [QWERTY]
