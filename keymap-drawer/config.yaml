@@ -7,6 +7,10 @@ parse_config:
     '&swapper': Win Next
     '&caps_word': Caps Wrd
     '&inv_qm': ¿
+    '&dqt_ex': '"!'
+    '&cm_qmk': ',?'
+    '&dt_grv': '.`'
+    '&sqt_tl': "'~"
 
     '&out OUT_USB': Out USB
     '&out OUT_BLE': Out BLE
