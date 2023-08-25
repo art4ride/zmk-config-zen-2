@@ -123,12 +123,12 @@ combos:
   k: ↹
   l: [QWERTY]
   a: top
-  o: 0.15
+  o: 5.15
 - p: [19, 21]
   k: ⌫
   l: [QWERTY]
   a: top
-  o: 0.15
+  o: 5.15
 - p: [16, 19]
   k: Caps Wrd
   l: [QWERTY]
@@ -158,7 +158,7 @@ combos:
   k: \
   l: [QWERTY, NUMBER, SYMBOL]
 - p: [18, 30]
-  k: {t: (, s: )}
+  k: ()
   l: [QWERTY, NUMBER, SYMBOL]
 - p: [1, 2, 3, 4]
   k: BT CLR
