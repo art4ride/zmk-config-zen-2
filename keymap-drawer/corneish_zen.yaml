@@ -124,13 +124,13 @@ combos:
   l: [BEAKL]
   a: top
   o: 1.15
-  s: 0.15
+  type: tab
 - p: [19, 21]
   k: ⌫
   l: [BEAKL]
   a: top
   o: 1.15
-  s: -0.15
+  type: bspc
 - p: [16, 19]
   k: Caps Wrd
   l: [BEAKL]
