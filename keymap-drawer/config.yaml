@@ -99,6 +99,12 @@ parse_config:
         visibility: collapse;
     }
     /* End Tabler Icons Cleanup */
+    .tab {
+      transform: translate(16px, 0);
+    }
+    .bspc {
+      transform: translate(-16px, 0);
+    }
   raw_binding_map:
     '&reset': Reset
     '&sys_reset': Reset
@@ -138,8 +144,8 @@ parse_config:
     '&mkp MB5': Forward Click
 
   zmk_combos:
-    combo_tab:    {align: top, o: 1.15, s: 0.15}
-    combo_bspc:   {align: top, o: 1.15, s: -0.15}
+    combo_tab:    {align: top, o: 1.15, type: "tab"}
+    combo_bspc:   {align: top, o: 1.15, type: "bspc"}
     combo_capswd: {align: top}
     combo_f12:    {align: bottom}
     combo_btclr:  {align: bottom}
