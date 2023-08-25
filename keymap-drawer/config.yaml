@@ -88,6 +88,13 @@ parse_config:
         fill: none;
     }
 
+    .combo.tab {
+      transform: translate(16px, 0);
+    }
+    .combo.bspc {
+      transform: translate(-16px, 0);
+    }
+
     /* Start Tabler Icons Cleanup */
     /* cannot use height/width with glyphs */
     .icon-tabler > path {
@@ -99,12 +106,6 @@ parse_config:
         visibility: collapse;
     }
     /* End Tabler Icons Cleanup */
-    .combo:has(.tab) {
-      transform: translate(16px, 0);
-    }
-    .combo:has(.bspc) {
-      transform: translate(-16px, 0);
-    }
   raw_binding_map:
     '&reset': Reset
     '&sys_reset': Reset
