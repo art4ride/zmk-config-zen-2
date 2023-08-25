@@ -86,11 +86,14 @@ path.combo {
     fill: none;
 }
 
-.combo.tab {
+g.combo.tab {
   transform: translate(16px, 0);
 }
-.combo.bspc {
+g.combo.bspc {
   transform: translate(-16px, 0);
+}
+g.combo.capsw {
+  transform: scale(0.9, 1) translate(49px, 0);
 }
 
 /* Start Tabler Icons Cleanup */
@@ -327,11 +330,11 @@ path.combo {
 <rect rx="6" ry="6" x="660" y="105" width="28" height="26" class="combo bspc"/>
 <text x="674" y="118" class="combo bspc tap">⌫</text>
 </g>
-<g class="combo combopos-12">
+<g class="combo capsw combopos-12">
 <path d="M450,182 h-162 a6.0,6.0 0 0 0 -6.0,6.0 v4" class="combo"/>
 <path d="M450,182 h162 a6.0,6.0 0 0 1 6.0,6.0 v4" class="combo"/>
-<rect rx="6" ry="6" x="436" y="169" width="28" height="26" class="combo"/>
-<text x="450" y="182" class="combo tap">
+<rect rx="6" ry="6" x="436" y="169" width="28" height="26" class="combo capsw"/>
+<text x="450" y="182" class="combo capsw tap">
 <tspan x="450.0" dy="-0.6em">Caps</tspan><tspan x="450.0" dy="1.2em">Wrd</tspan>
 </text>
 </g>

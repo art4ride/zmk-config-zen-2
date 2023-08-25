@@ -135,6 +135,7 @@ combos:
   k: Caps Wrd
   l: [BEAKL]
   a: top
+  type: capsw
 - p: [16, 17]
   k: '!'
   l: [BEAKL]
