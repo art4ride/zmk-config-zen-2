@@ -5,8 +5,8 @@ svg path {
 }
 /* font and background color specifications */
 svg.keymap {
-    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-    font-size: 14px;
+    font-family: 'Fira Mono','SF Mono', SFMono-Regular, ui-monospace, Liberation Mono, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    font-size: 16px;
     font-kerning: normal;
     text-rendering: optimizeLegibility;
     fill: #24292e;
@@ -84,6 +84,13 @@ path.combo {
     stroke-width: 1;
     stroke: gray;
     fill: none;
+}
+
+.combo.tab {
+  transform: translate(16px, 0);
+}
+.combo.bspc {
+  transform: translate(-16px, 0);
 }
 
 /* Start Tabler Icons Cleanup */
