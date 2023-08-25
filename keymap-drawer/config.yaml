@@ -99,10 +99,10 @@ parse_config:
         visibility: collapse;
     }
     /* End Tabler Icons Cleanup */
-    .tab {
+    .combo:has(.tab) {
       transform: translate(16px, 0);
     }
-    .bspc {
+    .combo:has(.bspc) {
       transform: translate(-16px, 0);
     }
   raw_binding_map:
