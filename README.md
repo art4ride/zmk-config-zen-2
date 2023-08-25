@@ -1,6 +1,7 @@
 # Corne-ish Zen V2 Custom Configuration
 
 ![Corne-ish Zen Logo](img/Zen_R3_sticker.png)
+![Drawer Layout](keymap-drawer/corneish_zen.svg)
 
 **NOTE: This code is currently merged into ZMK Main.**
 
@@ -15,6 +16,10 @@ V2 PCBs were only used in the 3rd GB round (R3). To confirm which version you ne
 - The [official ZMK Firmware GitHub](https://github.com/zmkfirmware/zmk) repository. View the keymaps for other boards and shields as a starting point for your keymap.
 - The [official ZMK Documentation](https://zmk.dev/docs) web site. Find the answers to many of your questions about ZMK Firmware.
 - The [official ZMK Discord Server](https://zmk.dev/community/discord/invite). Instant conversations with other ZMK developers and users. Great technical resource!
+- Those guys making an amazing job on their configs
+    - [Minu5](https://github.com/minusfive/zmk-config)
+    - ([caksoylar](https://github.com/caksoylar/zmk-config))
+    - ([urob](https://github.com/urob/zmk-config))
 
 ## Instructions
 
@@ -43,8 +48,3 @@ To locate your firmware files...
     - If you changed [the conf file](/config/corneish_zen.conf) you should flash both sides their respective files.
 
 Your keyboard is now ready to use.
-
-# References
-    - ([Minu5](https://github.com/minusfive/zmk-config))
-    - ([caksoylar](https://github.com/caksoylar/zmk-config))
-    - ([urob](https://github.com/urob/zmk-config))
