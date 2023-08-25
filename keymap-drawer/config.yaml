@@ -138,8 +138,8 @@ parse_config:
     '&mkp MB5': Forward Click
 
   zmk_combos:
-    combo_tab:    {align: top, o: 5.15}
-    combo_bspc:   {align: top, o: 5.15}
+    combo_tab:    {align: top, o: 1.15}
+    combo_bspc:   {align: top, o: 1.15}
     combo_capswd: {align: top}
     combo_f12:    {align: bottom}
     combo_btclr:  {align: bottom}
