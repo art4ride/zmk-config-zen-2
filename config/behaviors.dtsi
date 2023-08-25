@@ -175,7 +175,7 @@
      - tap: "
      - shift + tap: !
      */
-    /omit-if-no-ref/ dqt_exc: dquot_excl {
+    /omit-if-no-ref/ dqt_ex: dquot_excl {
       compatible = "zmk,behavior-mod-morph";
       label = "dqt!";
       #binding-cells = <0>;
