@@ -1,48 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  QWERTY:
-  - ↹
-  - Q
-  - Y
-  - O
-  - U
-  - X
-  - G
-  - C
-  - M
-  - N
-  - Z
-  - ⌫
-  - Ctrl
-  - H
-  - I
-  - E
-  - A
-  - {t: ., s: '`'}
-  - D
-  - S
-  - T
-  - R
-  - P
-  - ⏎
-  - Shift
-  - {t: '"', s: '!'}
-  - {t: ',', s: '?'}
-  - C
-  - K
-  - {t: '''', s: '~'}
-  - W
-  - F
-  - L
-  - B
-  - V
-  - Esc
-  - Gui
-  - NUMBER
-  - ␣
-  - ⏎
-  - SYMBOL
-  - Alt
+  QWERTY: [↹, Q, Y, O, U, X, G, C, M, N, Z, ⌫, Ctrl, H, I, E, A, .`, D, S, T, R, P, ⏎, Shift, J, '"!', ',?', K, '''~', W, F, L, B, V, Esc, Gui, NUMBER, ␣, ⏎, SYMBOL,
+    Alt]
   NUMBER:
   - ↹
   - '1'
@@ -56,12 +15,12 @@ layers:
   - '9'
   - '0'
   - ⌫
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - ←
   - ↓
   - ↑
