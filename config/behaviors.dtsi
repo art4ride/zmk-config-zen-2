@@ -171,5 +171,49 @@
       bindings = <&kp LPAR>, <&kp RPAR>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
     };
+    /*
+     - tap: "
+     - shift + tap: !
+     */
+    /omit-if-no-ref/ dqt_exc: dquot_excl {
+      compatible = "zmk,behavior-mod-morph";
+      label = "dqt!";
+      #binding-cells = <0>;
+      bindings = <&kp DQT>, <&kp EXCL>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    /*
+     - tap: ,
+     - shift + tap: ?
+     */
+    /omit-if-no-ref/ cm_qmk: comma_question {
+      compatible = "zmk,behavior-mod-morph";
+      label = ",?";
+      #binding-cells = <0>;
+      bindings = <&kp COMMA>, <&kp QMARK>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    /*
+     - tap: .
+     - shift + tap: `
+     */
+    /omit-if-no-ref/ dt_grv: dot_grave {
+      compatible = "zmk,behavior-mod-morph";
+      label = ",?";
+      #binding-cells = <0>;
+      bindings = <&kp DOT>, <&kp GRAVE>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+    /*
+     - tap: '
+     - shift + tap: ~
+     */
+    /omit-if-no-ref/ sqt_tl: sqt_tilde {
+      compatible = "zmk,behavior-mod-morph";
+      label = ",?";
+      #binding-cells = <0>;
+      bindings = <&kp SQT>, <&kp TILDE>;
+      mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
   };
 };
