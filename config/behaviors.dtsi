@@ -199,7 +199,7 @@
      */
     /omit-if-no-ref/ dt_grv: dot_grave {
       compatible = "zmk,behavior-mod-morph";
-      label = ",?";
+      label = ".`";
       #binding-cells = <0>;
       bindings = <&kp DOT>, <&kp GRAVE>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -210,7 +210,7 @@
      */
     /omit-if-no-ref/ sqt_tl: sqt_tilde {
       compatible = "zmk,behavior-mod-morph";
-      label = ",?";
+      label = "'~";
       #binding-cells = <0>;
       bindings = <&kp SQT>, <&kp TILDE>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
