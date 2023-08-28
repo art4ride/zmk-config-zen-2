@@ -587,49 +587,49 @@ g.combo.capsw {
 <rect rx="6" ry="6" x="32" y="805" width="52" height="52" class="key"/>
 <text x="58" y="831" class="key tap">↹</text>
 </g>
-<g class="key keypos-1">
-<rect rx="6" ry="6" x="88" y="805" width="52" height="52" class="key"/>
-<text x="114" y="831" class="key tap">!</text>
+<g class="key trans keypos-1">
+<rect rx="6" ry="6" x="88" y="805" width="52" height="52" class="key trans"/>
+<text x="114" y="831" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-2">
-<rect rx="6" ry="6" x="144" y="791" width="52" height="52" class="key"/>
-<text x="170" y="817" class="key tap">@</text>
+<g class="key trans keypos-2">
+<rect rx="6" ry="6" x="144" y="791" width="52" height="52" class="key trans"/>
+<text x="170" y="817" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-3">
-<rect rx="6" ry="6" x="200" y="784" width="52" height="52" class="key"/>
-<text x="226" y="810" class="key tap">#</text>
+<g class="key trans keypos-3">
+<rect rx="6" ry="6" x="200" y="784" width="52" height="52" class="key trans"/>
+<text x="226" y="810" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-4">
-<rect rx="6" ry="6" x="256" y="791" width="52" height="52" class="key"/>
-<text x="282" y="817" class="key tap">$</text>
+<g class="key trans keypos-4">
+<rect rx="6" ry="6" x="256" y="791" width="52" height="52" class="key trans"/>
+<text x="282" y="817" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-5">
-<rect rx="6" ry="6" x="312" y="798" width="52" height="52" class="key"/>
-<text x="338" y="824" class="key tap">%</text>
+<g class="key trans keypos-5">
+<rect rx="6" ry="6" x="312" y="798" width="52" height="52" class="key trans"/>
+<text x="338" y="824" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-6">
-<rect rx="6" ry="6" x="536" y="798" width="52" height="52" class="key"/>
-<text x="562" y="824" class="key tap">^</text>
+<g class="key trans keypos-6">
+<rect rx="6" ry="6" x="536" y="798" width="52" height="52" class="key trans"/>
+<text x="562" y="824" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-7">
-<rect rx="6" ry="6" x="592" y="791" width="52" height="52" class="key"/>
-<text x="618" y="817" class="key tap">&amp;</text>
+<g class="key trans keypos-7">
+<rect rx="6" ry="6" x="592" y="791" width="52" height="52" class="key trans"/>
+<text x="618" y="817" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-8">
-<rect rx="6" ry="6" x="648" y="784" width="52" height="52" class="key"/>
-<text x="674" y="810" class="key tap">*</text>
+<g class="key trans keypos-8">
+<rect rx="6" ry="6" x="648" y="784" width="52" height="52" class="key trans"/>
+<text x="674" y="810" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-9">
-<rect rx="6" ry="6" x="704" y="791" width="52" height="52" class="key"/>
-<text x="730" y="817" class="key tap">(</text>
+<g class="key trans keypos-9">
+<rect rx="6" ry="6" x="704" y="791" width="52" height="52" class="key trans"/>
+<text x="730" y="817" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-10">
-<rect rx="6" ry="6" x="760" y="805" width="52" height="52" class="key"/>
-<text x="786" y="831" class="key tap">)</text>
+<g class="key trans keypos-10">
+<rect rx="6" ry="6" x="760" y="805" width="52" height="52" class="key trans"/>
+<text x="786" y="831" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-11">
-<rect rx="6" ry="6" x="816" y="805" width="52" height="52" class="key"/>
-<text x="842" y="831" class="key tap">⌫</text>
+<g class="key trans keypos-11">
+<rect rx="6" ry="6" x="816" y="805" width="52" height="52" class="key trans"/>
+<text x="842" y="831" class="key trans tap">▽</text>
 </g>
 <g class="key keypos-12">
 <rect rx="6" ry="6" x="32" y="861" width="52" height="52" class="key"/>
@@ -655,29 +655,29 @@ g.combo.capsw {
 <rect rx="6" ry="6" x="312" y="854" width="52" height="52" class="key trans"/>
 <text x="338" y="880" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-18">
-<rect rx="6" ry="6" x="536" y="854" width="52" height="52" class="key"/>
-<text x="562" y="880" class="key tap">-</text>
+<g class="key trans keypos-18">
+<rect rx="6" ry="6" x="536" y="854" width="52" height="52" class="key trans"/>
+<text x="562" y="880" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-19">
-<rect rx="6" ry="6" x="592" y="847" width="52" height="52" class="key"/>
-<text x="618" y="873" class="key tap">=</text>
+<g class="key trans keypos-19">
+<rect rx="6" ry="6" x="592" y="847" width="52" height="52" class="key trans"/>
+<text x="618" y="873" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-20">
-<rect rx="6" ry="6" x="648" y="840" width="52" height="52" class="key"/>
-<text x="674" y="866" class="key tap">[</text>
+<g class="key trans keypos-20">
+<rect rx="6" ry="6" x="648" y="840" width="52" height="52" class="key trans"/>
+<text x="674" y="866" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-21">
-<rect rx="6" ry="6" x="704" y="847" width="52" height="52" class="key"/>
-<text x="730" y="873" class="key tap">]</text>
+<g class="key trans keypos-21">
+<rect rx="6" ry="6" x="704" y="847" width="52" height="52" class="key trans"/>
+<text x="730" y="873" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-22">
-<rect rx="6" ry="6" x="760" y="861" width="52" height="52" class="key"/>
-<text x="786" y="887" class="key tap">\</text>
+<g class="key trans keypos-22">
+<rect rx="6" ry="6" x="760" y="861" width="52" height="52" class="key trans"/>
+<text x="786" y="887" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-23">
-<rect rx="6" ry="6" x="816" y="861" width="52" height="52" class="key"/>
-<text x="842" y="887" class="key tap">`</text>
+<g class="key trans keypos-23">
+<rect rx="6" ry="6" x="816" y="861" width="52" height="52" class="key trans"/>
+<text x="842" y="887" class="key trans tap">▽</text>
 </g>
 <g class="key keypos-24">
 <rect rx="6" ry="6" x="32" y="917" width="52" height="52" class="key"/>
@@ -703,29 +703,29 @@ g.combo.capsw {
 <rect rx="6" ry="6" x="312" y="910" width="52" height="52" class="key trans"/>
 <text x="338" y="936" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-30">
-<rect rx="6" ry="6" x="536" y="910" width="52" height="52" class="key"/>
-<text x="562" y="936" class="key tap">_</text>
+<g class="key trans keypos-30">
+<rect rx="6" ry="6" x="536" y="910" width="52" height="52" class="key trans"/>
+<text x="562" y="936" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-31">
-<rect rx="6" ry="6" x="592" y="903" width="52" height="52" class="key"/>
-<text x="618" y="929" class="key tap">+</text>
+<g class="key trans keypos-31">
+<rect rx="6" ry="6" x="592" y="903" width="52" height="52" class="key trans"/>
+<text x="618" y="929" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-32">
-<rect rx="6" ry="6" x="648" y="896" width="52" height="52" class="key"/>
-<text x="674" y="922" class="key tap">{</text>
+<g class="key trans keypos-32">
+<rect rx="6" ry="6" x="648" y="896" width="52" height="52" class="key trans"/>
+<text x="674" y="922" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-33">
-<rect rx="6" ry="6" x="704" y="903" width="52" height="52" class="key"/>
-<text x="730" y="929" class="key tap">}</text>
+<g class="key trans keypos-33">
+<rect rx="6" ry="6" x="704" y="903" width="52" height="52" class="key trans"/>
+<text x="730" y="929" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-34">
-<rect rx="6" ry="6" x="760" y="917" width="52" height="52" class="key"/>
-<text x="786" y="943" class="key tap">|</text>
+<g class="key trans keypos-34">
+<rect rx="6" ry="6" x="760" y="917" width="52" height="52" class="key trans"/>
+<text x="786" y="943" class="key trans tap">▽</text>
 </g>
-<g class="key keypos-35">
-<rect rx="6" ry="6" x="816" y="917" width="52" height="52" class="key"/>
-<text x="842" y="943" class="key tap">~</text>
+<g class="key trans keypos-35">
+<rect rx="6" ry="6" x="816" y="917" width="52" height="52" class="key trans"/>
+<text x="842" y="943" class="key trans tap">▽</text>
 </g>
 <g class="key keypos-36">
 <rect rx="6" ry="6" x="228" y="961" width="52" height="52" class="key"/>
