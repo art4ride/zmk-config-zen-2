@@ -40,6 +40,7 @@
     COMBO(tab,    &kp TAB,    14 16, L1,  40, 200)
     COMBO(bspc,   &kp BSPC,   19 21, L1,  40, 200)
     COMBO(capswd, &caps_word, 16 19, L1,  60, 200)
+    COMBO(chg_ln, &chg_ln,    15 20, L1 Ln, 60, 200)
 
 
     // index horiz tests

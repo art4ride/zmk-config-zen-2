@@ -116,6 +116,7 @@ parse_config:
     '&bootloader': Boot
     '&swapper': Win Next
     '&caps_word': Caps Wrd
+    '&chg_ln': Chg Lng
     '&inv_qm': ¿
     '&dqt_ex': '"!'
     '&cm_qmk': ',?'
@@ -152,6 +153,7 @@ parse_config:
     combo_tab:    {align: top, o: 1.15, type: "tab"}
     combo_bspc:   {align: top, o: 1.15, type: "bspc"}
     combo_capswd: {align: top, type: "capsw"}
+    combo_chg_ln: {align: top, o: 1.15, type: "chglen"}
     combo_f12:    {align: bottom}
     combo_btclr:  {align: bottom}
 
