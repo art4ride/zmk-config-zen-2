@@ -153,7 +153,7 @@ parse_config:
     combo_tab:    {align: top, o: 1.15, type: "tab"}
     combo_bspc:   {align: top, o: 1.15, type: "bspc"}
     combo_capswd: {align: top, type: "capsw"}
-    combo_chg_ln: {align: top, o: 1.15, type: "chglen"}
+    combo_chg_ln: {align: top, o: 0.25, type: "chglen"}
     combo_f12:    {align: bottom}
     combo_btclr:  {align: bottom}
 
@@ -163,6 +163,8 @@ parse_config:
     # ✄
     # ⎗
     # ⎘
+    LA(LEFT): Wd←
+    LA(RIGHT): Wd→
     LC(LG(LEFT)): Desk Left
     LC(LG(RIGHT)): Desk Right
     LC(TAB): Tab Left
