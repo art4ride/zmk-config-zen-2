@@ -97,6 +97,9 @@ draw_config:
     g.combo.capsw {
       transform: scale(0.9, 1) translate(49px, 0);
     }
+    g.combo.chglen {
+      transform: scale(0.95, 1) translate(35px, 0);
+    }
 
     /* Start Tabler Icons Cleanup */
     /* cannot use height/width with glyphs */
@@ -153,7 +156,7 @@ parse_config:
     combo_tab:    {align: top, o: 1.15, type: "tab"}
     combo_bspc:   {align: top, o: 1.15, type: "bspc"}
     combo_capswd: {align: top, type: "capsw"}
-    combo_chg_ln: {align: top, o: 0.25, type: "chglen"}
+    combo_chg_ln: {align: top, o: 0.35, type: "chglen"}
     combo_f12:    {align: bottom}
     combo_btclr:  {align: bottom}
 
