@@ -182,7 +182,7 @@ combos:
   k: Chg Lng
   l: [BEAKL, QWERTY]
   a: top
-  o: 0.25
+  o: 0.35
   type: chglen
 - p: [16, 17]
   k: Wd←
