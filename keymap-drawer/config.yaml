@@ -98,7 +98,7 @@ draw_config:
       transform: scale(0.9, 1) translate(49px, 0);
     }
     g.combo.chglen {
-      transform: scale(0.95, 1) translate(35px, 0);
+      transform: scale(0.91, 1) translate(41px, 0);
     }
 
     /* Start Tabler Icons Cleanup */
