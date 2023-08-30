@@ -8,10 +8,10 @@ layers:
   - '3'
   - '4'
   - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
+  - LA(UP)
+  - ↖
+  - ↑
+  - ↘
   - '0'
   - ⌫
   - {t: ▽, type: trans}
@@ -20,9 +20,9 @@ layers:
   - '8'
   - '9'
   - '0'
+  - LA(DOWN)
   - ←
   - ↓
-  - ↑
   - →
   - {t: ▽, type: trans}
   - ⏎
@@ -33,9 +33,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ⇞
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⌘
@@ -87,6 +87,49 @@ layers:
   - ⇧
   - {type: held}
   - ⎇
+  QWERTY:
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: ▽, type: trans}
+  - ⌫
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - ⌃
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ⏎
+  - ⌘
+  - {t: ▽, type: trans}
+  - ␣
+  - ⇧
+  - {t: ▽, type: trans}
+  - ⎇
 combos:
 - p: [1, 13]
   k: '!'
@@ -135,6 +178,12 @@ combos:
   l: [BEAKL]
   a: top
   type: capsw
+- p: [15, 20]
+  k: Chg Lng
+  l: [BEAKL, QWERTY]
+  a: top
+  o: 1.15
+  type: chglen
 - p: [16, 17]
   k: '!'
   l: [BEAKL]
