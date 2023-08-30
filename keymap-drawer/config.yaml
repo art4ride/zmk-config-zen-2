@@ -165,6 +165,8 @@ parse_config:
     # ⎘
     LA(LEFT): Wd←
     LA(RIGHT): Wd→
+    LA(UP): Mv↑
+    LA(DOWN): Mv↓
     LC(LG(LEFT)): Desk Left
     LC(LG(RIGHT)): Desk Right
     LC(TAB): Tab Left
