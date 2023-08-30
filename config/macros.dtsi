@@ -77,5 +77,15 @@
         <&macro_param_1to1>,
         <&macro_release &mo MACRO_PLACEHOLDER>;
     };
+
+    /omit-if-no-ref/ chg_ln: change_language {
+      compatible = "zmk,behavior-macro";
+      label = "LNG";
+      bindings = 
+        <&macro_press &tog 1 &kp LSHIFT>,
+        <&macro_tap &kp LALT>,
+        <&macro_pause_for_release>,
+        <&macro_release &tog 1 &kp LSHIFT>;
+    };
   };
 };
