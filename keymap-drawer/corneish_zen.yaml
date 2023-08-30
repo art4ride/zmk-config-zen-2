@@ -35,7 +35,7 @@ layers:
   - {t: ▽, type: trans}
   - ⇞
   - {t: ▽, type: trans}
-  - PG DOWN
+  - ⇟
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⌘
@@ -133,34 +133,34 @@ layers:
 combos:
 - p: [1, 13]
   k: '!'
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [2, 14]
   k: '@'
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [3, 15]
   k: '#'
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [4, 16]
   k: $
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [5, 17]
   k: '%'
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [13, 25]
   k: ^
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [14, 26]
   k: '&'
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [15, 27]
   k: '*'
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [16, 28]
   k: <
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [17, 29]
   k: '>'
-  l: [BEAKL]
+  l: [BEAKL, QWERTY]
 - p: [14, 16]
   k: ↹
   l: [BEAKL]
@@ -182,13 +182,13 @@ combos:
   k: Chg Lng
   l: [BEAKL, QWERTY]
   a: top
-  o: 1.15
+  o: 0.25
   type: chglen
 - p: [16, 17]
-  k: '!'
+  k: Wd←
   l: [BEAKL]
 - p: [18, 19]
-  k: '?'
+  k: Wd→
   l: [BEAKL]
 - p: [7, 19]
   k: '-'
