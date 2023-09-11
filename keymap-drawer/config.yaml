@@ -166,6 +166,10 @@ parse_config:
     # ✄
     # ⎗
     # ⎘
+    LG(A): Select All
+    LG(X): Cut
+    LG(C): Copy
+    LG(V): Paste
     LA(LEFT): Wd←
     LA(RIGHT): Wd→
     LA(UP): Mv↑
