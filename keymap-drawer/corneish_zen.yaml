@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  BEAKL: [↹, Q, Y, O, U, X, G, C, M, N, Z, ⌫, '`', H, I, E, A, .`, D, S, T, R, P, ⏎, ⌃, J, '"!', ',?', K, '''~', W, F, L, B, V, ⎋, ⌘, NUMBER, ␣, ⇧, SYMBOL, ⎇]
+  BEAKL: [↹, Q, Y, O, U, X, G, C, M, N, Z, ⌫, '`', H, I, E, A, .`, D, S, T, R, P, ⏎, ⌃, J, '"!', ',?', K, '''~', W, F, L, B, V, ⎋, ⌘, SYMBOL, ␣, ⇧, NUMBER, ⎇]
   NUMBER:
   - ↹
   - '1'
@@ -39,10 +39,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⌘
-  - {type: held}
+  - {t: ▽, type: trans}
   - ␣
   - ⇧
-  - {t: ▽, type: trans}
+  - {type: held}
   - ⎇
   SYMBOL:
   - ↹
@@ -57,11 +57,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⌫
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - Select All
+  - '&KP LG(X)'
+  - '&KP LG(C)'
+  - '&KP LG(V)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -82,10 +82,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⌘
-  - {t: ▽, type: trans}
+  - {type: held}
   - ␣
   - ⇧
-  - {type: held}
+  - {t: ▽, type: trans}
   - ⎇
   QWERTY:
   - ↹
@@ -100,7 +100,7 @@ layers:
   - O
   - P
   - {t: ▽, type: trans}
-  - ⌫
+  - '`'
   - A
   - S
   - D
