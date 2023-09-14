@@ -1,6 +1,48 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  BEAKL: [↹, Q, Y, O, U, X, G, C, M, N, Z, ⌫, '`', H, I, E, A, .`, D, S, T, R, P, ⏎, ⌃, J, '"!', ',?', K, '''~', W, F, L, B, V, ⎋, ⌘, SYMBOL, ␣, ⇧, NUMBER, ⎇]
+  BEAKL:
+  - ↹
+  - Q
+  - Y
+  - O
+  - U
+  - X
+  - G
+  - C
+  - M
+  - N
+  - Z
+  - ⌫
+  - '`'
+  - H
+  - I
+  - E
+  - A
+  - .`
+  - D
+  - S
+  - T
+  - R
+  - P
+  - ⏎
+  - ⌃
+  - J
+  - '"!'
+  - ',?'
+  - K
+  - '''~'
+  - W
+  - F
+  - L
+  - B
+  - V
+  - ⎋
+  - ⌘
+  - SYMBOL
+  - {t: ␣, h: ⇧}
+  - ⇧
+  - NUMBER
+  - ⎇
   NUMBER:
   - ↹
   - '1'
@@ -40,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - ⌘
   - {t: ▽, type: trans}
-  - ␣
+  - {t: ␣, h: ⇧}
   - ⇧
   - {type: held}
   - ⎇
@@ -59,9 +101,9 @@ layers:
   - {t: ▽, type: trans}
   - '`'
   - Select All
-  - Cut
-  - Copy
-  - Paste
+  - Save
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -70,10 +112,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⌃
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Undo
+  - Cut
+  - Copy
+  - Paste
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
