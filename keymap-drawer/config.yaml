@@ -170,6 +170,8 @@ parse_config:
     LG(X): Cut
     LG(C): Copy
     LG(V): Paste
+    LG(Z): Undo
+    LG(S): Save
     LA(LEFT): Wd←
     LA(RIGHT): Wd→
     LA(UP): Mv↑
