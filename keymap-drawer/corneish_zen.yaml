@@ -12,7 +12,7 @@ layers:
   - ↖
   - ↑
   - ↘
-  - '0'
+  - ⇞
   - ⌫
   - {t: ▽, type: trans}
   - '6'
@@ -24,7 +24,7 @@ layers:
   - ←
   - ↓
   - →
-  - {t: ▽, type: trans}
+  - ⇟
   - ⏎
   - ⌃
   - {t: ▽, type: trans}
@@ -33,9 +33,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⇞
+  - Wd←
   - {t: ▽, type: trans}
-  - ⇟
+  - Wd→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⌘
@@ -59,9 +59,9 @@ layers:
   - {t: ▽, type: trans}
   - '`'
   - Select All
-  - '&KP LG(X)'
-  - '&KP LG(C)'
-  - '&KP LG(V)'
+  - Cut
+  - Copy
+  - Paste
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
