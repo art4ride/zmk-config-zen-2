@@ -172,6 +172,7 @@ parse_config:
     LG(V): Paste
     LG(Z): Undo
     LG(S): Save
+    LG(F): Find
     LA(LEFT): Wd←
     LA(RIGHT): Wd→
     LA(UP): Mv↑
