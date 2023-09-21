@@ -18,7 +18,7 @@ layers:
   - I
   - E
   - A
-  - .`
+  - ./
   - D
   - S
   - T
@@ -88,8 +88,8 @@ layers:
   - ⎇
   SYMBOL:
   - ↹
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LG(Q)
+  - LG(W)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

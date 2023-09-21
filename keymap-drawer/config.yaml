@@ -123,7 +123,7 @@ parse_config:
     '&inv_qm': ¿
     '&dqt_ex': '"!'
     '&cm_qmk': ',?'
-    '&dt_grv': '.`'
+    '&dt_fsl': './'
     '&sqt_tl': "'~"
     '&bkt': "()"
 
