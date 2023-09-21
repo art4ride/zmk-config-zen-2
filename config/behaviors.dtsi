@@ -197,11 +197,11 @@
      - tap: .
      - shift + tap: `
      */
-    /omit-if-no-ref/ dt_grv: dot_grave {
+    /omit-if-no-ref/ dt_fsl: dot_fslh {
       compatible = "zmk,behavior-mod-morph";
-      label = ".`";
+      label = "./";
       #binding-cells = <0>;
-      bindings = <&kp DOT>, <&kp GRAVE>;
+      bindings = <&kp DOT>, <&kp FSLH>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
     };
     /*
