@@ -103,7 +103,7 @@ layers:
   - Select All
   - Save
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Find
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
