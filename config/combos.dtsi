@@ -5,7 +5,6 @@
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
-    global-quick-tap-ms = <QUICKTAP>; \
   };
 
 / {
