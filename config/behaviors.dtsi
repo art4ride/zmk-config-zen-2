@@ -1,3 +1,8 @@
+
+// Behaviors Constants
+#define TAPPING_TERM_MS 280
+#define QUICK_TAP_MS 175
+#define GLOBAL_QUICK_TAP_MS 150
 &mt {
   flavor = "balanced";
   tapping-term-ms = <TAPPING_TERM_MS>;
